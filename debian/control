@@ -1,0 +1,28 @@
+Source: libreturn-type-perl
+Section: perl
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13),
+ libtype-tiny-perl <!nocheck>,
+ libtest-fatal-perl <!nocheck>,
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Standards-Version: 4.6.0
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libreturn-type-perl.git
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libreturn-type-perl
+Homepage: https://metacpan.org/release/Return-Type
+Testsuite: autopkgtest-pkg-perl
+Rules-Requires-Root: no
+
+Package: libreturn-type-perl
+Architecture: all
+Depends:
+ libtype-tiny-perl,
+ ${misc:Depends},
+ ${perl:Depends}
+Suggests:
+ libscope-upper-perl,
+Description: specify a return type for a function (optionally with coercion)
+ Return::Type allows you to specify a return type for your subs.
+ Type constraints from any Type::Tiny, MooseX::Types
+ or MouseX::Types type library are supported.

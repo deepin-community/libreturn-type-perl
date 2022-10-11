@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.83.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA256 de30d47a91a840a0681d9195240e0c950bbd0004401d76b683bced319dc12759 COPYRIGHT
+SHA256 7977c02e031153dc91d6db9d2e803671d586e59bca2c5c3dc6211f29c04d92d6 CREDITS
+SHA256 95738682719cf2fee74c181b8c6cedcc1fabefda54a8137f1fbc93b432056f9a Changes
+SHA256 421ba666d19aa73d14d2b4f2da6a13b4572c9c1ec2bcad66c5eae098697fc603 INSTALL
+SHA256 1fb7395e76eabf94c421912d7d0a4f7fa745d49e1acb76b222c21d605b66bd25 LICENSE
+SHA256 5e0fff04704b934170db9936ac7181f3561ed9446d22586fcf16ee25be3598f1 MANIFEST
+SHA256 d98ef55dc0e62bcd2b63c485a0948bb9c6275eabaf520a0b77d718eaa6924aa0 META.json
+SHA256 4f181da295a228dc2bc9ea0fcbb9e38f76d9a908a69a7c2dc78a5eb3ea6c7557 META.yml
+SHA256 dc8c4c11902394284437e7eef0ba7fdbc14c98950f5d0bafbffc55d6159090e4 Makefile.PL
+SHA256 54449a2ccb4f02f5dfa00033c85f15e2ac8c6cf6361725a1c0485014c37ec128 README
+SHA256 44a67669bd71eb1fa8fd06090f3fa6200a38a60e0f6c4fb7b8ef3e871c52ddaa dist.ini
+SHA256 9b4969c97dbeac6f6ba028e051db201315b11ef2ff137a2db4d77496a592425a doap.ttl
+SHA256 d215d674efc391983be08f7e20110b452765d6814f3c41ed9b6618f3e8e9fbda lib/Return/Type.pm
+SHA256 9c4fe40b3f887778f15a279ad58a403b8751d0c3c23263e9f7cc4446faa6b447 t/01basic.t
+SHA256 4a71938f6052eef1493feb9cb599063287e07cbdc0bc08899f98d93a328e9a6d t/02sugar.t
+SHA256 6d09ccd05bd75300c76349483e5caafa0637b415e26de88d939c6cf1fc3fd1dc t/03coerce.t
+SHA256 96f864c93f12cea54ed8e6f38f28741a837666d1778a13ba210f35188beaa339 t/04void.t
+SHA256 8ae8ed15fec6e876a44b37a966289fbe2843b1899d63f6e70b8766ccb18d8f41 t/benchmarks.pl
+-----BEGIN PGP SIGNATURE-----
+
+iF0EARECAB0WIQRVJKj/4+s6z4WzNujOv4Eoaip9OQUCX4rRDAAKCRDOv4Eoaip9
+Oao7AJ0czk7qvRLUodKtApBLo4C4o/NvegCeJAXgEXE/dZvvoZJbzuu0hUFudP8=
+=Jrgg
+-----END PGP SIGNATURE-----

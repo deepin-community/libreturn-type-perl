@@ -1,0 +1,60 @@
+libreturn-type-perl (0.007-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new release
+
+  [ Salvatore Bonaccorso ]
+  * use salsa.debian.org in Update Vcs-* headers
+
+  [ gregor herrmann ]
+  * use MetaCPAN URIs (not search.cpan.org or search.cpan.org)
+  * use secure GitHub URis
+
+  [ Debian Janitor ]
+  * use secure copyright file specification URI
+  * set upstream metadata fields:
+    Bug-Database Repository Repository-Browse
+  * enable autopkgtest
+
+  [ Jonas Smedegaard ]
+  * simplify build;
+    stop build-depend on devscripts dh-buildinfo cdbs
+  * stop (build-)depend on libscalar-list-utils-perl,
+    or fallback-build-depend on libtest-simple-perl:
+    provided by perl nowadays
+  * fix suggest (not depend on) libscope-upper-perl
+  * update git-buildinfo config: ignore any .git* files
+  * stop (build-)depend explicitly on perl: not called directly
+  * use debhelper compatibility level 13 (not 8);
+    build-depend on debhelper-compat (not debhelper)
+  * annotate test-only build-dependencies
+  * declare compliance with Debian Policy 4.6.0
+  * set Rules-Requires-Root: no
+  * update watch file:
+    + use file format 4
+    + track only MetaCPAN URI
+    + mention gbp --uscan in usage comment
+    + use substitution strings
+  * update copyright info:
+    + stop track no longer included CONTRIBUTING file
+    + use License-Grant and Reference fields;
+      add lintian overrides about Reference field
+    + use secure URI for Contact-Info
+    + update coverage
+  * use semantic newlines in long description and copyright fields
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 12 Sep 2021 20:08:12 +0200
+
+libreturn-type-perl (0.005-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 03:08:56 +0100
+
+libreturn-type-perl (0.005-1) unstable; urgency=low
+
+  * Initial packaging release.
+    Closes: bug#779091.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 24 Feb 2015 14:27:24 +0100
